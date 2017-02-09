@@ -1,0 +1,124 @@
+@import url(reset.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  background: #f2f2f2;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.7rem;
+  background: #f7f7f7;
+  border-bottom: 1px #dfdfdf solid;
+  position: relative;
+}
+header h1 {
+  font-size: 14px;
+  text-align: center;
+  line-height: 3.7rem;
+}
+header .left {
+  width: 0.9rem;
+  height: 1.5rem;
+  background: 0;
+  background: url(../img/cw1_06.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0.9rem;
+  top: 1.1rem;
+}
+header .right {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: 0;
+  background: url(../img/cw1_03.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 0.9rem;
+  top: 1rem;
+}
+nav {
+  width: 100%;
+  height: 3.4rem;
+  background: #ffffff;
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+}
+nav li {
+  width: 25%;
+  height: 100%;
+  background: 0;
+  float: left;
+  line-height: 2.6rem;
+  text-align: center;
+}
+nav li a {
+  border-right: 1px #ebebeb solid;
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+}
+nav li img {
+  width: 0.9rem;
+  height: 0.5rem;
+  background: 0;
+}
+nav .quan {
+  color: #ff8e39;
+  border-bottom: 1px #ff8e39 solid;
+  padding-bottom: 3rem;
+}
+nav .jin {
+  border: none;
+}
+section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+  margin-top: 0.4rem;
+}
+section .main {
+  width: 100%;
+  height: 4.2rem;
+  background: #ffffff;
+  padding: 0.6rem 0.9rem;
+  box-sizing: border-box;
+  margin-bottom: 0.4rem;
+}
+section .main p {
+  width: 100%;
+  height: 1.5rem;
+  background: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+section .main p .yf {
+  float: right;
+}
+section .main p .jian {
+  color: #6165b8;
+}
+section .main p .jia {
+  color: #f76261;
+}
+section .main p .wei {
+  color: #ffa66a;
+}

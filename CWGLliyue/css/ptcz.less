@@ -1,0 +1,95 @@
+@import url(reset.css);
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.r{
+    position:relative;
+}
+//绝对定位
+.a{
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.box(@ver:vertical){//vertical  horizontal
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,.wrap{
+    .whb(100%,100%,0);
+    background: #f2f2f2;
+}
+.wrap{
+    .box;
+}
+header{
+    .whb(100%,3.7rem,#f7f7f7);
+    border-bottom: 1px #dfdfdf solid;
+    .r;
+    h1{
+        font-size: 14px;
+        text-align: center;
+        line-height: 3.7rem;
+    }
+    .left{
+        .whb(0.9rem,1.5rem,0);
+        background: url(../img/cw1_06.jpg) no-repeat;
+        background-size: 100%;
+        .a;
+        left: 0.9rem;
+        top: 1.1rem;
+    }
+    .right{
+        .whb(1.6rem,1.6rem,0);
+        background: url(../img/cw1_03.jpg) no-repeat;
+        background-size: 100%;
+        .a;
+        right: 0.9rem;
+        top: 1rem;
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    .chongzhi{
+        .whb(100%,3.2rem,#fff);
+        margin-top: 0.3rem;
+        border-bottom: 1px #dfdfdf solid;
+        border-top: 1px #dfdfdf solid;
+        padding:0 1rem;
+        box-sizing: border-box;
+        line-height: 3.2rem;
+        margin-bottom: 1.6rem;
+        input{
+            border: none;
+            outline: none;
+        }
+    }
+    .submit{
+        .whb(100%,2.8rem,0);
+        padding: 0 1rem;
+        box-sizing: border-box;
+        span{
+            display: block;
+            .whb(100%,100%,#ff7f1c);
+            border-radius: 0.5rem;
+            text-align: center;
+            line-height: 2.8rem;
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+@import url(reset.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  background: #f2f2f2;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.7rem;
+  background: #f7f7f7;
+  border-bottom: 1px #dfdfdf solid;
+  position: relative;
+}
+header h1 {
+  font-size: 14px;
+  text-align: center;
+  line-height: 3.7rem;
+}
+header .left {
+  width: 0.9rem;
+  height: 1.5rem;
+  background: 0;
+  background: url(../img/cw1_06.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0.9rem;
+  top: 1.1rem;
+}
+header .right {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: 0;
+  background: url(../img/cw1_03.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 0.9rem;
+  top: 1rem;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section .chongzhi {
+  width: 100%;
+  height: 3.2rem;
+  background: #ffffff;
+  margin-top: 0.3rem;
+  border-bottom: 1px #dfdfdf solid;
+  border-top: 1px #dfdfdf solid;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+section .chongzhi input {
+  border: none;
+  outline: none;
+}
+section .submit {
+  width: 100%;
+  height: 2.8rem;
+  background: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+section .submit span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ff7f1c;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 2.8rem;
+  color: #fff;
+  font-size: 14px;
+}
