@@ -1,0 +1,100 @@
+@import url(../reset.css);
+.a {
+  position: absolute;
+}
+.r {
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp header {
+  width: 100%;
+  height: 4.5rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 4.5rem;
+}
+.warp header div {
+  width: 1.7rem;
+  height: 100%;
+  background: none;
+}
+.warp header img {
+  width: 1.7rem;
+  height: auto;
+  background: none;
+  margin-left: 1.1rem;
+}
+.warp header .xiaoxi {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.warp header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.warp section {
+  -webkit-box-flex: 1;
+}
+.warp section .main {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+}
+.warp section .main p {
+  padding-left: 1rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.warp section .main p input {
+  -webkit-box-flex: 1;
+  background: #f7f7f7;
+  border: none;
+  outline: none;
+  margin-bottom: 0.3rem;
+}
+.warp section .main p img {
+  width: 1rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  right: 1rem;
+  top: 0.7rem;
+}
+.warp section .btn {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  margin-top: 3rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.warp section .btn h3 {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1d;
+  border-radius: 10px;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+}
