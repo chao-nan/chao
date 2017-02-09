@@ -1,4 +1,5 @@
 @import url(../reset.css);
+@import url(../header.css);
 .whb(@w, @h, @b) {
     width: @w;
     height: @h;
@@ -26,27 +27,6 @@ html,body,.warp{
 }
 .warp{
     .box;
-     header{
-        .whb(100%,4.5rem,none);
-        border-bottom: 1px solid #ccc;
-        .box(horizontal);
-        line-height: 4.5rem;
-        div{
-            .whb(1.7rem,100%,none);
-        }
-        img{
-            .whb(1.7rem,auto,none);
-            margin-left: 1.1rem;
-        }
-        .xiaoxi{
-            .whb(1rem,auto,none);
-        }
-        h1{
-            -webkit-box-flex: 1;
-            text-align: center;
-            font-size: 1.8rem;
-        }
-    }
     section{
         -webkit-box-flex: 1;
         .main{
@@ -84,6 +64,76 @@ html,body,.warp{
                 text-align: center;
                 font-size: 1.8rem;
                 color: #fff;
+            }
+        }
+    }
+}
+
+.bigdiv{
+    .whb(100%,100%,#919191);
+    .a;
+    left: 0;
+    top: 0;
+    z-index: 998;
+    opacity: 0.5;
+    display: none;
+}
+.back{
+    .whb(24.5rem,11.5rem,#fff);
+    z-index: 999;
+    .a;
+    left: 50%;
+    top: 50%;
+    margin-left: -12.2rem;
+    margin-top: -5.7rem;
+    border-radius: 15px;
+    display: none;
+    h2{
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+    p{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    ul{
+        .box(horizontal);
+        margin-top: 1.5rem;
+        border-top: 1px solid #ccc;
+        li{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 1.4rem;
+            color: #1583fe;
+            &:nth-child(1){
+                border-right: 1px solid #ccc;
+            }
+        }
+    }
+}
+
+.site{
+    .whb(100%,22rem,#ededed);
+    .a;
+    bottom: 0;
+    display: none;
+    z-index: 999;
+    ul{
+        .box(horizontal);
+        line-height: 3.5rem;
+        background: url(../../img/shouye1/images/jianb_03.jpg) repeat-x;
+        color: #006cff;
+        li{
+            -webkit-box-flex: 1;
+            &:nth-child(1){
+                margin-left: 1rem;
+            }
+            &:nth-child(2){
+                text-align: right;
+                margin-right: 1rem;
             }
         }
     }

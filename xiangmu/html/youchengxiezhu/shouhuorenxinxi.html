@@ -25,5 +25,36 @@
 				</div>
 			</section>
 		</div>
+		<div class="bigdiv"></div>
+		<div class="back">
+			<h2>确定返回？</h2>
+			<p>您填写的信息尚未保存，确定返回吗？</p>
+			<ul>
+				<li>取消</li>
+				<li>确认</li>
+			</ul>
+		</div>
+		<div class="site">
+			<ul>
+				<li>取消</li>
+				<li>完成</li>
+			</ul>
+		</div>
 	</body>
 </html>
+<script type="text/javascript">
+	var oImg=document.getElementsByClassName('xiaoxi')[0];
+	var oBigdiv=document.getElementsByClassName('bigdiv')[0];
+	var oBack=document.getElementsByClassName('back')[0];
+	var oLI=oBack.getElementsByTagName("li")[0];
+	var oLI1=oBack.getElementsByTagName("li")[1];
+	
+	oImg.onclick=function(){
+		oBigdiv.style.display="block";
+		oBack.style.display="block";
+	}
+	oLI.onclick=function(){
+		oBigdiv.style.display="none";
+		oBack.style.display="none";
+	}
+</script>

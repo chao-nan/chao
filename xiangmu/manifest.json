@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "xiangmu",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,55 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"css/shouye.css",
+					"css/reset.css",
+					"img/shouye1/images/shouye111_03.jpg",
+					"img/shouye1/images/shouye111_07.jpg"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/shouye1/images/shouye111_21.jpg",
+				"img/shouye1/images/shouye111_37.jpg",
+				"html/youchengxiezhu/guanlianwendang.html",
+				"css/youchengxiezhu/xinxi.less",
+				"css/shouye.less",
+				"img/shouye1/images/shouye111_23.jpg",
+				"html/xiaoxitongzhi.html",
+				"img/shouye1/images/shouye111_47.jpg",
+				"img/shouye1/images/shouye111_40.jpg",
+				"img/shouye1/images/shouye111_58.jpg",
+				"html/youchengxiezhu/shouhuorenxinxi.html",
+				"js/iscroll.js",
+				"img/shouye1/images/shouye111_16.jpg",
+				"img/shouye1/images/shouye111_52.jpg",
+				"css/youchengxiezhu/xinxi.css",
+				"img/shouye1/images/shouye11_03.jpg",
+				"img/shouye1/images/shouye111_33.jpg",
+				"img/shouye1/images/shouye111_29.jpg",
+				"img/shouye1/images/shouye111_10.jpg",
+				"img/shouye1/images/dizhi_03.jpg",
+				"img/shouye1/images/shouye111_27.jpg",
+				"css/swiper.css",
+				"img/shouye1/images/shouye111_45.jpg",
+				"js/swiper.js",
+				"img/shouye1/images/shouye111_61.jpg",
+				"img/shouye1/images/shouye111_55.jpg",
+				"img/shouye1/images/shouye111_50.jpg",
+				"img/shouye1/images/shouye1_61.jpg",
+				"img/shouye1/images/shouye111_43.jpg",
+				"js/zepto.min.js",
+				"img/shouye1/images/shouye111_14.jpg",
+				"img/shouye1/images/xiaoxi_03.jpg"
+			]
+		}
+	}
 }

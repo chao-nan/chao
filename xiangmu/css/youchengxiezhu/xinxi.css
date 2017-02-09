@@ -1,4 +1,5 @@
 @import url(../reset.css);
+@import url(../header.css);
 .a {
   position: absolute;
 }
@@ -18,36 +19,6 @@ body,
 .warp {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-}
-.warp header {
-  width: 100%;
-  height: 4.5rem;
-  background: none;
-  border-bottom: 1px solid #ccc;
-  display: -webkit-box;
-  -webkit-box-orient: horizontal;
-  line-height: 4.5rem;
-}
-.warp header div {
-  width: 1.7rem;
-  height: 100%;
-  background: none;
-}
-.warp header img {
-  width: 1.7rem;
-  height: auto;
-  background: none;
-  margin-left: 1.1rem;
-}
-.warp header .xiaoxi {
-  width: 1rem;
-  height: auto;
-  background: none;
-}
-.warp header h1 {
-  -webkit-box-flex: 1;
-  text-align: center;
-  font-size: 1.8rem;
 }
 .warp section {
   -webkit-box-flex: 1;
@@ -97,4 +68,80 @@ body,
   text-align: center;
   font-size: 1.8rem;
   color: #fff;
+}
+.bigdiv {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 998;
+  opacity: 0.5;
+  display: none;
+}
+.back {
+  width: 24.5rem;
+  height: 11.5rem;
+  background: #ffffff;
+  z-index: 999;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -12.2rem;
+  margin-top: -5.7rem;
+  border-radius: 15px;
+  display: none;
+}
+.back h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.back p {
+  text-align: center;
+  margin-top: 1rem;
+}
+.back ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 1.5rem;
+  border-top: 1px solid #ccc;
+}
+.back ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 1.4rem;
+  color: #1583fe;
+}
+.back ul li:nth-child(1) {
+  border-right: 1px solid #ccc;
+}
+.site {
+  width: 100%;
+  height: 22rem;
+  background: #ededed;
+  position: absolute;
+  bottom: 0;
+  display: none;
+  z-index: 999;
+}
+.site ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.5rem;
+  background: url(../../img/shouye1/images/jianb_03.jpg) repeat-x;
+  color: #006cff;
+}
+.site ul li {
+  -webkit-box-flex: 1;
+}
+.site ul li:nth-child(1) {
+  margin-left: 1rem;
+}
+.site ul li:nth-child(2) {
+  text-align: right;
+  margin-right: 1rem;
 }
